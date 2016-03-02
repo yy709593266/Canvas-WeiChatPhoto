@@ -1,0 +1,70 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/yuanyuan\/xioxi\/DEMOS\/\%CD\%E6\%D7\%AA\%BA\%EC\%B0\%FC\%D5\%D5\%C6\%AC\/css\/style\.scss}line{font-family:\000039}}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/yuanyuan\/xioxi\/DEMOS\/\%CD\%E6\%D7\%AA\%BA\%EC\%B0\%FC\%D5\%D5\%C6\%AC\/css\/style\.scss}line{font-family:\0000314}}
+#blur-div {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/yuanyuan\/xioxi\/DEMOS\/\%CD\%E6\%D7\%AA\%BA\%EC\%B0\%FC\%D5\%D5\%C6\%AC\/css\/style\.scss}line{font-family:\0000319}}
+#blur-div #blur-image {
+  display: block;
+  margin: 0 auto;
+  filter: blur(25px);
+  -webkit-filter: blur(25px);
+  -moz-filter: blur(25px);
+  -ms-filter: blur(25px);
+  -o-filter: blur(25px);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/yuanyuan\/xioxi\/DEMOS\/\%CD\%E6\%D7\%AA\%BA\%EC\%B0\%FC\%D5\%D5\%C6\%AC\/css\/style\.scss}line{font-family:\0000331}}
+#blur-div #canvas {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/yuanyuan\/xioxi\/DEMOS\/\%CD\%E6\%D7\%AA\%BA\%EC\%B0\%FC\%D5\%D5\%C6\%AC\/css\/style\.scss}line{font-family:\0000340}}
+#blur-div .button {
+  display: block;
+  position: absolute;
+  z-index: 200;
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/yuanyuan\/xioxi\/DEMOS\/\%CD\%E6\%D7\%AA\%BA\%EC\%B0\%FC\%D5\%D5\%C6\%AC\/css\/style\.scss}line{font-family:\0000353}}
+#blur-div #reset-button {
+  left: 50px;
+  bottom: 20px;
+  background-color: #058;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/yuanyuan\/xioxi\/DEMOS\/\%CD\%E6\%D7\%AA\%BA\%EC\%B0\%FC\%D5\%D5\%C6\%AC\/css\/style\.scss}line{font-family:\0000357}}
+#blur-div #reset-button:hover {
+  background-color: #047;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/yuanyuan\/xioxi\/DEMOS\/\%CD\%E6\%D7\%AA\%BA\%EC\%B0\%FC\%D5\%D5\%C6\%AC\/css\/style\.scss}line{font-family:\0000362}}
+#blur-div #show-button {
+  right: 50px;
+  bottom: 20px;
+  background-color: #085;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/yuanyuan\/xioxi\/DEMOS\/\%CD\%E6\%D7\%AA\%BA\%EC\%B0\%FC\%D5\%D5\%C6\%AC\/css\/style\.scss}line{font-family:\0000366}}
+#blur-div #show-button:hover {
+  background-color: #074;
+}
+
+/*# sourceMappingURL=style.css.map */

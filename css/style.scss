@@ -1,0 +1,71 @@
+@mixin filter-blur($blur){
+	filter:blur($blur);
+	-webkit-filter:blur($blur);
+	-moz-filter:blur($blur);
+	-ms-filter:blur($blur);
+	-o-filter:blur($blur);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#blur-div {
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+
+	#blur-image {
+		display: block;
+		margin: 0 auto;
+
+		@include filter-blur(25px);
+
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 0;
+	}
+
+	#canvas {
+		display: block;
+		margin: 0 auto;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 100;
+	}
+
+	.button {
+		display: block;
+		position: absolute;
+		z-index: 200;
+		width: 100px;
+		height: 30px;
+		color: #fff;
+		text-decoration: none;
+		text-align: center;
+		line-height: 30px;
+		border-radius: 5px;
+	}
+
+	#reset-button {
+		left: 50px;
+		bottom: 20px;
+		background-color: #058;
+		&:hover {
+			background-color: #047;
+		}
+	}
+
+	#show-button {
+		right: 50px;
+		bottom: 20px;
+		background-color: #085;
+		&:hover {
+			background-color: #074;
+		}
+	}
+}
+
